@@ -1,0 +1,91 @@
+Tue Nov 04 15:16:20 2014				Page     1
+
+
+ 
+Update Symbols/Modules Logfile
+	Tue Nov 04 15:16:20 2014
+
+------ Module Refresh Messages ------
+
+SUMMARY:    Updated 6 out of 7 modules
+
+------ End Module Messages     ------
+
+
+
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Symbol                                                   )
+(                                                                     )
+(    Drawing          : disceep.brd                                   )
+(    Software Version : 16.5S028                                      )
+(    Date/Time        : Tue Nov 04 15:16:34 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Tue Nov 04 15:16:34 2014				Page     1
+
+
+------ Symbol Refresh Directives ------
+
+Input design = 'C:/USERS/DV/DOCUMENTS/GITHUB/DISCEEP/allegro/disceep.brd'
+Output design = ''
+Update mechanical symbols = 'NO'
+Update format symbols = 'NO'
+Update package symbols = 'YES'
+Update shape/flash symbols = 'NO'
+Update symbol padstacks = 'NO'
+Reset symbol text and size locations = 'NO'
+Reset Pin Escapes (fanouts) = 'NO'
+Ripup Etch = 'NO'
+Reset custom drill data = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  C:/Users/DV/Documents/github/ProductionParts 
+           C:/USERS/DV/DOCUMENTS/GITHUB/PreProductionParts/ 
+           C:/Users/DV/Documents/github/Parts/ 
+           . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_16.5/share/local/pcb/symbols 
+           C:/Cadence/SPB_16.5/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_16.5/share/pcb/allegrolib/symbols 
+           C:/USERS/DV/DOCUMENTS/GITHUB/Allegro_Design_Library/ 
+
+PADPATH =  C:/USERS/DV/DOCUMENTS/GITHUB/Allegro_Design_Library/ 
+           . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_16.5/share/local/pcb/padstacks 
+           C:/Cadence/SPB_16.5/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_16.5/share/pcb/allegrolib/symbols 
+           C:/Users/DV/Documents/github/PADS/ 
+           C:/Users/DV/Documents/github/ProductionParts 
+           C:?Users/DV/Documents/github/PreProductionParts 
+           C:/Users/DV/Documents/github/Parts/ 
+
+
+------ Symbol Refresh Messages ------
+
+'SUPERCAP_VL3_2'  symbol refreshed successfully.
+'QFN16'  symbol refreshed successfully.
+'PIEZO_HOLES'  symbol refreshed successfully.
+'SMD_0603_RES'  symbol refreshed successfully.
+'SMD_0603_LED'  symbol refreshed successfully.
+'SMD_0603_CAP'  symbol refreshed successfully.
+'HEADER4_050'  symbol refreshed successfully.
+
+'TSSOP14'  symbol starting to refresh:
+     ERROR(SPMHNI-254): Unable to load symbol, 'TSSOP14': 'ERROR(SPMHA1-73): Text line is outside of the extents.'.
+     
+
+
+----- Symbol Update Summary ----
+
+Errors detected, due these errors this design was NOT updated.
+       1  errors detected.
+       0  warnings detected.

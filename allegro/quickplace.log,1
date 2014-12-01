@@ -1,0 +1,32 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : disceep.brd                                   )
+(    Software Version : 16.5S028                                      )
+(    Date/Time        : Wed Nov 12 12:28:25 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on layer TOP
+
+ERROR:   Could not find symbol:  B5 / SILVEROXIDEBAT_CR1632_HORIZONTA / CR1632_HORIZONTAL
+ERROR:   Could not find symbol:  B6 / SILVEROXIDEBAT_CR1632_HORIZONTA / CR1632_HORIZONTAL
+ERROR:   Could not find symbol:  B7 / SILVEROXIDEBAT_CR1632_HORIZONTA / CR1632_HORIZONTAL
+ERROR:   Could not find symbol:  B4 / SILVEROXIDEBAT_CR1632_HORIZONTA / CR1632_HORIZONTAL
+ERROR:   Could not find symbol:  B3 / SILVEROXIDEBAT_CR1632_HORIZONTA / CR1632_HORIZONTAL
+ERROR:   Could not find symbol:  B2 / SILVEROXIDEBAT_CR1632_HORIZONTA / CR1632_HORIZONTAL
+ERROR:   Could not find symbol:  B1 / SILVEROXIDEBAT_CR1632_HORIZONTA / CR1632_HORIZONTAL
+ERROR:   Cannot place symbol:  C32 / C_SUPERCAP_VL3_2_.25F / SUPERCAP_VL3_2
+         due to ERROR(SPMHA1-73): Text line is outside of the extents.
+ERROR:   Cannot place symbol:  C36 / C_SUPERCAP_VL3_2_.25F / SUPERCAP_VL3_2
+         due to ERROR(SPMHA1-73): Text line is outside of the extents.
+ERROR:   Cannot place symbol:  C40 / C_SUPERCAP_VL3_2_.25F / SUPERCAP_VL3_2
+         due to ERROR(SPMHA1-73): Text line is outside of the extents.
+
+
+Placed 0 of 10 applicable (10 total) symbols.
+
+-----------------------------------------------------------------------
+

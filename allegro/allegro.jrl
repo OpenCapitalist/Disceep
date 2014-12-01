@@ -1,0 +1,61 @@
+\t (00:59:48) allegro 16.5 S028 (v16-5-13BQ) i86
+\t (00:59:48)     Journal start - Fri Nov 21 19:07:51 2014
+\t (00:59:48)         Host=DV_ROBOT_EXT User=DV Pid=100096 CPUs=4
+\t (00:59:48) 
+\d (00:59:48) Database opened: C:/Users/DV/Documents/github/Disceep/allegro/disceep.brd
+\i (00:59:48) placementedit 
+\i (00:59:49) zoom out 1 
+\i (00:59:49) setwindow pcb
+\i (00:59:49) zoom out -91.77 1179.10
+\i (00:59:49) trapsize 3055
+\i (00:59:49) zoom out 1 
+\i (00:59:49) setwindow pcb
+\i (00:59:49) zoom out -6.23 1289.08
+\i (00:59:49) trapsize 3055
+\i (00:59:50) zoom out 1 
+\i (00:59:50) setwindow pcb
+\i (00:59:50) zoom out 115.97 1594.58
+\i (00:59:50) trapsize 3055
+\i (00:59:50) zoom in 1 
+\i (00:59:50) setwindow pcb
+\i (00:59:50) zoom in 97.64 1594.58
+\i (00:59:50) trapsize 1527
+\i (00:59:50) zoom in 1 
+\i (00:59:50) setwindow pcb
+\i (00:59:50) zoom in -284.24 1594.58
+\i (00:59:50) trapsize 764
+\i (00:59:50) zoom in 1 
+\i (00:59:50) setwindow pcb
+\i (00:59:50) zoom in -284.24 1594.59
+\i (00:59:50) trapsize 382
+\i (00:59:55) etchedit 
+\i (01:15:52) zoom in 1 
+\i (01:15:52) setwindow pcb
+\i (01:15:52) zoom in 9.04 1386.09
+\i (01:15:52) trapsize 191
+\i (01:15:53) zoom out 1 
+\i (01:15:53) setwindow pcb
+\i (01:15:53) zoom out 9.04 1386.09
+\i (01:15:53) trapsize 382
+\i (01:15:53) zoom out 1 
+\i (01:15:53) setwindow pcb
+\i (01:15:53) zoom out 9.04 1386.09
+\i (01:15:53) trapsize 764
+\i (01:15:53) zoom out 1 
+\i (01:15:53) setwindow pcb
+\i (01:15:53) zoom out 114.44 1386.09
+\i (01:15:53) trapsize 1527
+\i (01:15:55) zoom in 1 
+\i (01:15:55) setwindow pcb
+\i (01:15:55) zoom in 1063.02 1499.88
+\i (01:15:55) trapsize 764
+\i (01:15:55) zoom in 1 
+\i (01:15:55) setwindow pcb
+\i (01:15:55) zoom in 1064.55 1496.82
+\i (01:15:55) trapsize 382
+\i (01:15:58) zoom out 1 
+\i (01:15:58) setwindow pcb
+\i (01:15:58) zoom out 1065.31 1496.82
+\i (01:15:58) trapsize 764
+\i (18:48:11) exit 
+\t (18:48:18)     Journal end - Sat Nov 22 12:56:21 2014
