@@ -4,11 +4,11 @@
 
 SHELL = cmd.exe
 
-CG_TOOL_ROOT := C:/ti/ccsv5/tools/compiler/msp430_4.2.3
+CG_TOOL_ROOT := c:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.2
 
 ORDERED_OBJS += \
 $(GEN_CMDS__FLAG) \
-"./main.obj" \
+"./mainLED.obj" \
 "../lnk_msp430g2302.cmd" \
 -l"libc.a" \
 
@@ -107,6 +107,18 @@ endif
 -include ../makefile.defs
 
 # Add inputs and outputs from these tool invocations to the build variables 
+EXE_OUTPUTS += \
+MSP430G2302Disceep.out \
+
+EXE_OUTPUTS__QUOTED += \
+"MSP430G2302Disceep.out" \
+
+BIN_OUTPUTS += \
+MSP430G2302Disceep.hex \
+
+BIN_OUTPUTS__QUOTED += \
+"MSP430G2302Disceep.hex" \
+
 
 # All Target
 all: MSP430G2302Disceep.out
@@ -115,15 +127,21 @@ all: MSP430G2302Disceep.out
 MSP430G2302Disceep.out: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MSP430 Linker'
-	"C:/ti/ccsv5/tools/compiler/msp430_4.2.3/bin/cl430" -vmsp --abi=eabi --advice:power=all -g --define=__MSP430G2302__ --diag_warning=225 --display_error_number --diag_wrap=off --printf_support=minimal -z -m"MSP430G2302Disceep.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv5/ccs_base/msp430/include" -i"C:/ti/ccsv5/tools/compiler/msp430_4.2.3/lib" -i"C:/ti/ccsv5/tools/compiler/msp430_4.2.3/include" --reread_libs --warn_sections --display_error_number --diag_wrap=off --xml_link_info="MSP430G2302Disceep_linkInfo.xml" --rom_model -o "MSP430G2302Disceep.out" $(ORDERED_OBJS)
+	"c:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.2/bin/cl430" -vmsp --abi=eabi --use_hw_mpy=none --advice:power=all -g --define=__MSP430G2302__ --diag_warning=225 --display_error_number --diag_wrap=off --printf_support=minimal -z -m"MSP430G2302Disceep.map" --heap_size=80 --stack_size=80 -i"c:/ti/ccsv6/ccs_base/msp430/include" -i"c:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.2/lib" -i"c:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.2/include" --reread_libs --warn_sections --display_error_number --diag_wrap=off --xml_link_info="MSP430G2302Disceep_linkInfo.xml" --use_hw_mpy=none --rom_model -o "MSP430G2302Disceep.out" $(ORDERED_OBJS)
 	@echo 'Finished building target: $@'
+	@echo ' '
+
+MSP430G2302Disceep.hex: $(EXE_OUTPUTS)
+	@echo 'Invoking: MSP430 Hex Utility'
+	"c:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.2/bin/hex430" --memwidth=8 --romwidth=8 -o "MSP430G2302Disceep.hex" $(EXE_OUTPUTS__QUOTED)
+	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) $(MSP430_EXECUTABLE_OUTPUTS__QUOTED) "MSP430G2302Disceep.out"
-	-$(RM) "main.pp" 
-	-$(RM) "main.obj" 
+	-$(RM) $(EXE_OUTPUTS__QUOTED)$(BIN_OUTPUTS__QUOTED)
+	-$(RM) "mainLED.pp" 
+	-$(RM) "mainLED.obj" 
 	-@echo 'Finished clean'
 	-@echo ' '
 

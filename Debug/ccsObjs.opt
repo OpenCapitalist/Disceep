@@ -1,1 +1,1 @@
-"./main.obj" "../lnk_msp430g2302.cmd" -l"libc.a" 
+"./mainLED.obj" "../lnk_msp430g2302.cmd" -l"libc.a" 
