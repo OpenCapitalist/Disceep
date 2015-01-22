@@ -1,0 +1,269 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : disceep.brd                                   )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Thu Jan 15 16:22:02 2015                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ ******************************************
+ WARNING: DRC OUT OF DATE on this layout.
+ ******************************************
+
+ ---- Photoplot outline rectangle not found ... using drawing extents
+
+
+
+Results from parameter file ...
+    DEVICE-TYPE           GERBER_RS274X
+    OUTPUT-UNITS          INCHES
+    FILM-SIZE             2400000 1600000
+    FORMAT                2.5
+    ABORT-ON-ERROR        NO
+    SCALE                 1
+    SUPPRESS-LEAD-ZEROES  YES
+    SUPPRESS-TRAIL-ZEROES NO
+    SUPPRESS-EQUAL        YES
+    UNDEF-APT-CONT        NO
+
+
+================================================================
+     PROCESSING FILM < TOP >
+     TO FILE < C:/Users/D/Documents/github/Disceep/allegro/TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: Film contains DRC error(s).
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.01200                                  DARK 
+  CIRCLE     0.02400                                  DARK 
+  CIRCLE     0.03000                                  DARK 
+  SQUARE     0.08500                     0.000 NO     DARK 
+  RECTANGLE  0.01200     x 0.03600       0.000 NO     DARK 
+  RECTANGLE  0.01200     x 0.03600      90.000 NO     DARK 
+  RECTANGLE  0.03600     x 0.03200       0.000 NO     DARK 
+  RECTANGLE  0.03600     x 0.03200      45.000 NO     DARK 
+  RECTANGLE  0.03600     x 0.03200      90.000 NO     DARK 
+  RECTANGLE  0.03600     x 0.03200     135.000 NO     DARK 
+  RECTANGLE  0.06500     x 0.01300       0.000 NO     DARK 
+
+     TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < BOTTOM >
+     TO FILE < C:/Users/D/Documents/github/Disceep/allegro/BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.02400                                  DARK 
+  CIRCLE     0.03000                                  DARK 
+  RECTANGLE  0.08600     x 0.03500       0.000 NO     DARK 
+
+     BOTTOM created with warnings
+
+
+================================================================
+     PROCESSING FILM < TOPSolder >
+     TO FILE < C:/Users/D/Documents/github/Disceep/allegro/TOPSolder.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.05000                                  DARK 
+  SQUARE     0.08500                     0.000 NO     DARK 
+  RECTANGLE  0.01200     x 0.03600       0.000 NO     DARK 
+  RECTANGLE  0.01200     x 0.03600      90.000 NO     DARK 
+  RECTANGLE  0.04600     x 0.04200       0.000 NO     DARK 
+  RECTANGLE  0.04600     x 0.04200      45.000 NO     DARK 
+  RECTANGLE  0.04600     x 0.04200      90.000 NO     DARK 
+  RECTANGLE  0.04600     x 0.04200     135.000 NO     DARK 
+  RECTANGLE  0.07500     x 0.01800       0.000 NO     DARK 
+
+     TOPSolder created with warnings
+
+
+================================================================
+     PROCESSING FILM < TOPSilk >
+     TO FILE < C:/Users/D/Documents/github/Disceep/allegro/TOPSilk.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: text composed 0 width line found at (59.29 200.71)
+           ... using undefined line width of 6.00
+
+    WARNING: 0 width line found at (98.18 140.61)
+           ... using undefined line width of 6.00
+
+    WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 6.00
+
+    WARNING: Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 6.00
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+
+     TOPSilk created with warnings
+
+
+================================================================
+     PROCESSING FILM < BOTTOMSolder >
+     TO FILE < C:/Users/D/Documents/github/Disceep/allegro/BOTTOMSolder.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.04400                                  DARK 
+  RECTANGLE  0.08600     x 0.03500       0.000 NO     DARK 
+
+     BOTTOMSolder created with warnings
+
+
+================================================================
+     PROCESSING FILM < BOTTOMSilk >
+     TO FILE < C:/Users/D/Documents/github/Disceep/allegro/BOTTOMSilk.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+
+     BOTTOMSilk created with warnings
+
+
+================================================================
+     PROCESSING FILM < OUTLINE >
+     TO FILE < C:/Users/D/Documents/github/Disceep/allegro/OUTLINE.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+
+     OUTLINE created with warnings
+
+
+------------------------------------------------------
+ SUMMARY:
+        TOP created with warnings
+        BOTTOM created with warnings
+        TOPSolder created with warnings
+        TOPSilk created with warnings
+        BOTTOMSolder created with warnings
+        BOTTOMSilk created with warnings
+        OUTLINE created with warnings
+
+ ARTWORK had warnings

@@ -7,21 +7,21 @@ CMD_SRCS += \
 ../lnk_msp430g2302.cmd 
 
 C_SRCS += \
-../main.c 
+../mainLED.c 
 
 OBJS += \
-./main.obj 
+./mainLED.obj 
 
 C_DEPS += \
-./main.pp 
+./mainLED.pp 
 
 C_DEPS__QUOTED += \
-"main.pp" 
+"mainLED.pp" 
 
 OBJS__QUOTED += \
-"main.obj" 
+"mainLED.obj" 
 
 C_SRCS__QUOTED += \
-"../main.c" 
+"../mainLED.c" 
 
 
